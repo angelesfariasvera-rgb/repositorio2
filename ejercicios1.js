@@ -49,7 +49,7 @@ console.log("Ejercicio 10: let edad=17; let tienePermiso=true e imprime si: la e
 edad = 17; let tienePermiso = true;
 console.log(edad >= 18 || tienePermiso);
 
-console.log("Ejercicio 11: crear una cuenta con nombre de usuario "admin" Y password es "1234"");
+console.log("Ejercicio 11: Crea una cuenta con variable username admin y password 1234");
 let username = "admin"; let password = "1234";
 console.log("Nombre de usuario: " + username + " Contraseña: " + password);
 
