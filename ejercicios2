@@ -1,0 +1,95 @@
+const prompt = require("prompt-sync")();
+
+/*let a= 2; let b= 3;
+suma1 = a + b;
+console.log("La suma de " + a + " y " + b + " es: " + suma1);
+
+
+
+let nombre= prompt("¿Cuál es tu nombre? ");
+let edad= prompt("¿Cuál es tu edad? ");
+
+console.log("Hola " + nombre + ", tienes " + edad + " años.");
+
+let calificacion1 = parseFloat(prompt("Ingresa la primera calificación: "));
+let calificacion2 = parseFloat(prompt("Ingresa la segunda calificación: "));
+promedio = (calificacion1 + calificacion2) / 2;
+console.log("El promedio de las calificaciones es: " + promedio); 
+
+
+
+let nombre_civil = prompt("¿Cuál es tu nombre y apellido? ");
+let direccion = prompt("¿Cuál es tu dirección? ");
+let respuesta = prompt("¿Eres casado? (si/no) ");
+if (respuesta === "si") {
+    console.log("Nombre: " + nombre_civil + " Dirección: " + direccion + " Estado civil: Casado");
+} else if (respuesta === "no") {
+    console.log("Nombre: " + nombre_civil + " Dirección: " + direccion + " Estado civil: Soltero");
+} else {
+    console.log("Respuesta no válida. Por favor, ingresa 'si' o 'no'.");
+}
+
+let calificacion1 = parseFloat(prompt("Ingresa la primera calificación: "));
+let calificacion2 = parseFloat(prompt("Ingresa la segunda calificación: "));
+let calificacion3 = parseFloat(prompt("Ingresa la tercera calificación: "));
+let calificacion4 = parseFloat(prompt("Ingresa la cuarta calificación: "));
+let calificacion5 = parseFloat(prompt("Ingresa la quinta calificación: "));
+let prom = (calificacion1 + calificacion2 + calificacion3 + calificacion4 + calificacion5) / 5;
+console.log("La suma de las calificaciones es: " + (calificacion1 + calificacion2 + calificacion3 + calificacion4 + calificacion5));
+console.log("El promedio de las calificaciones es: " + prom);
+
+let ListadoDeCalificaciones = [5.0, 4.5, 3.2, 4.0, 6.8];
+let suma = 0;
+for (let i = 0; i < ListadoDeCalificaciones.length; i++) {
+    suma += ListadoDeCalificaciones[i];
+}
+let promedio = suma / ListadoDeCalificaciones.length;
+console.log("La suma de las calificaciones es: " + suma);
+console.log("El promedio de las calificaciones es: " + promedio); 
+
+console.log("Convertidor de dólares a pesos");
+let vdolar = parseFloat(prompt("Ingresa el valor del dólar: "));
+let cdolar = parseFloat(prompt("Ingresa la cantidad de dólares: "));
+let pesos = vdolar * cdolar;
+console.log("La cantidad de pesos es: $ " + pesos);
+
+let producto = parseFloat(prompt("Ingresa el precio del producto: "));
+let descuento = parseFloat(prompt("Ingresa el porcentaje de descuento: "));
+let precioFinal = producto - (producto * (descuento / 100));
+console.log("El precio final del producto con descuento es: $ " + precioFinal);
+
+// EJERCICIO FIZZ BUZZ
+for (let i = 1; i <= 30; i++) {
+    console.log(i);
+    if (i % 3 === 0) {
+        console.log("FIZZ");
+    }
+    if (i % 5 === 0) {
+        console.log("BUZZ");
+    }
+    if (i % 3 === 0 && i % 5 === 0){
+        console.log("FIZZBUZZ")
+    }
+}
+
+
+for (let i = 1; i <= 30; i++){
+    if (i % 3 === 0 && i % 5 === 0){
+        console.log("FIZZBUZZ");
+    }    
+    else if (i % 3 === 0){
+        console.log("FIZZ");
+    }
+    else if (i % 5 === 0){
+        console.log("BUZZ");
+    }
+    else {
+        console.log(i)
+    }
+}*/
+
+console.log("Convertidor de dólares a pesos");
+let vdolar = parseFloat(prompt("Ingresa el valor del dólar: "));
+let cdolar = parseFloat(prompt("Ingresa la cantidad de dólares: "));
+let pesos = vdolar * cdolar;
+console.log("La cantidad de pesos es: $ " + pesos);
